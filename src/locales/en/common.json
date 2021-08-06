@@ -1,4 +1,11 @@
 {
     "title": "React Redux Typescript Boiler Plate",
-    "subtitle": "Here is a simple content viewer"
+    "subtitle": "Here is a simple content viewer",
+    "epg_title": "EPG Programs",
+    "epg_img_alt": "Program image for ",
+    "no_content": "No content found",
+    "no_picture": "No picture found",
+    "from": " from ",
+    "to": " to ",
+    "time_separation": ":"
 }

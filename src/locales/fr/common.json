@@ -1,4 +1,11 @@
 {
     "title": "Pack de démarrage React Redux Typescript",
-    "subtitle": "Voici visualiseur simple de contenu"
+    "subtitle": "Voici un visualiseur simple de contenu",
+    "epg_title": "Programmes EPG",
+    "epg_img_alt": "Image du programme ",
+    "no_content": "Aucun contenu n'a été trouvé",
+    "no_picture": "Image manquante",
+    "from": " de ",
+    "to": " à ",
+    "time_separation": "h"
 }
