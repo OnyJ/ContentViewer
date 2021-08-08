@@ -8,6 +8,7 @@
         "babel-preset-react-app": "latest",
         "connected-react-router": "latest",
         "i18next": "latest",
+        "node-sass": "^6.0.1",
         "react": "latest",
         "react-dom": "latest",
         "react-redux": "latest",
