@@ -16,3 +16,15 @@ export function getEPGPrograms(channelId: number): Promise<void> {
         .then((response) => response)
         .catch((error) => console.error(error.messages));
 }
+
+export function getVODContent(category: string): Promise<void> {
+    const URL = `https://lab-gcp.ifeelsmart.net/demo/v1/data/vod/contents?category=${category}`;
+    return fetch(URL)
+        .then((response) => response.json())
+        .then((response) => {
+            return handleImagesUrls(response);
+        })
+        .catch(() => {
+            return 'No content';
+        });
+}
