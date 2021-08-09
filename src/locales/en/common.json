@@ -9,8 +9,12 @@
     "no_picture": "No picture found",
     "from": " from ",
     "to": " to ",
+    "on": " on ",
+    "by": "By ",
     "time_separation": ":",
 
     "home": "Home",
-    "epg_programs": "EPG Programs"
+    "epg_programs": "EPG Programs",
+
+    "vod_content": "VOD Content"
 }
