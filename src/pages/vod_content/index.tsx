@@ -1,12 +1,11 @@
 import PropTypes from 'prop-types';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { getVODContent, showVODCategories } from '../../api/MaculosaAPI';
+import { getVODContent } from '../../api/MaculosaAPI';
 import { ContentCard } from '../../containers/vod_content';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { saveVODContent } from '../../redux/vod_content';
 import '../../styles/index.css';
-// import '../../styles/vod_content.scss';
 
 export default function VODContent(): JSX.Element {
     const category = 'Action/Aventure';
@@ -20,8 +19,6 @@ export default function VODContent(): JSX.Element {
         };
         fetchProgram();
     }, []);
-
-    showVODCategories();
 
     return (
         <div className={'content-page'}>

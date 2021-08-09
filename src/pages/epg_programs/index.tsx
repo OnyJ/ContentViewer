@@ -5,7 +5,6 @@ import { getEPGPrograms } from '../../api/MaculosaAPI';
 import { ProgramCard } from '../../containers/epg_programs';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { saveEPGPrograms } from '../../redux/epg_programs';
-// import '../../styles/epg_programs.scss';
 import '../../styles/index.css';
 
 export default function EPGPrograms(): JSX.Element {
