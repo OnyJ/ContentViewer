@@ -1,0 +1,12 @@
+.vod-content-card {
+    height: 423px;
+    &:hover,
+    &:focus {
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16);
+        transform: scale(1.025);
+    }
+    img {
+        object-fit: contain;
+        height: 250px;
+    }
+}
