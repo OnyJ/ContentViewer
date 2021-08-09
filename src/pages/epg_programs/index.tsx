@@ -5,7 +5,7 @@ import { getEPGPrograms } from '../../api/MaculosaAPI';
 import { ProgramCard } from '../../containers/epg_programs';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { saveEPGPrograms } from '../../redux/epg_programs';
-import '../../styles/epg_programs.scss';
+// import '../../styles/epg_programs.scss';
 import '../../styles/index.css';
 
 export default function EPGPrograms(): JSX.Element {
@@ -22,7 +22,7 @@ export default function EPGPrograms(): JSX.Element {
     }, []);
 
     return (
-        <div id={'epg-programs-container'}>
+        <div className={'content-page'}>
             <h2>{t('epg_title')}</h2>
             <div className={'flex'}>
                 {programs.contents !== undefined ? (
