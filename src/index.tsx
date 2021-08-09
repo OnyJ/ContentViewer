@@ -9,6 +9,7 @@ import ROUTES from './constants/routes';
 import Navbar from './containers/navbar';
 import EPGPrograms from './pages/epg_programs';
 import Home from './pages/home';
+import VODContent from './pages/vod_content';
 import store, { history } from './redux';
 import './styles/index.css';
 
@@ -21,6 +22,7 @@ ReactDOM.render(
                     <Switch>
                         <Route exact path={ROUTES.home} component={Home} />
                         <Route exact path={ROUTES.epg_programs} component={EPGPrograms} />
+                        <Route exact path={ROUTES.vod_content} component={VODContent} />
                     </Switch>
                 </I18nextProvider>
             </Router>
