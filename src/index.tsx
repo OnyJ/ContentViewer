@@ -7,6 +7,7 @@ import { Route, Switch } from 'react-router-dom';
 import i18next from './configs/i18n';
 import ROUTES from './constants/routes';
 import Navbar from './containers/navbar';
+import EPGPrograms from './pages/epg_programs';
 import Home from './pages/home';
 import store, { history } from './redux';
 import './styles/index.css';
@@ -19,6 +20,7 @@ ReactDOM.render(
                     <Navbar />
                     <Switch>
                         <Route exact path={ROUTES.home} component={Home} />
+                        <Route exact path={ROUTES.epg_programs} component={EPGPrograms} />
                     </Switch>
                 </I18nextProvider>
             </Router>
