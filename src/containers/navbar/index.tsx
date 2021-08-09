@@ -16,6 +16,9 @@ export default function Navbar(): JSX.Element {
                     <Link className={'link'} to={ROUTES.epg_programs}>
                         {t('epg_programs')}
                     </Link>
+                    <Link className={'link'} to={ROUTES.vod_content}>
+                        {t('vod_content')}
+                    </Link>
                 </li>
             </ul>
         </div>
