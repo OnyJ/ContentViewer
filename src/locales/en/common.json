@@ -1,6 +1,8 @@
 {
     "title": "React Redux Typescript Boiler Plate",
     "subtitle": "Here is a simple content viewer",
+    "home_indications": "You can visualize the content of your choice using the Navigation Bar.",
+
     "epg_title": "EPG Programs",
     "epg_img_alt": "Program image for ",
     "no_content": "No content found",
@@ -8,5 +10,7 @@
     "from": " from ",
     "to": " to ",
     "time_separation": ":",
-    "home": "Home"
+
+    "home": "Home",
+    "epg_programs": "EPG Programs"
 }

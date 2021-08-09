@@ -1,6 +1,8 @@
 {
     "title": "Pack de démarrage React Redux Typescript",
     "subtitle": "Voici un visualiseur simple de contenu",
+    "home_indications": "You can visualize the content of your choice using the Navigation Bar.",
+
     "epg_title": "Programmes EPG",
     "epg_img_alt": "Image du programme ",
     "no_content": "Aucun contenu n'a été trouvé",
@@ -8,5 +10,7 @@
     "from": " de ",
     "to": " à ",
     "time_separation": "h",
-    "home": "Accueil"
+
+    "home": "Accueil",
+    "epg_programs": "Programmes EPG"
 }
