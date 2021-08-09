@@ -7,6 +7,7 @@ import { Route, Switch } from 'react-router-dom';
 import i18next from './configs/i18n';
 import ROUTES from './constants/routes';
 import Navbar from './containers/navbar';
+import { VODDetailsModal } from './containers/vod_content/VODDetailsModal';
 import EPGPrograms from './pages/epg_programs';
 import Home from './pages/home';
 import VODContent from './pages/vod_content';
@@ -19,6 +20,7 @@ ReactDOM.render(
             <Router history={history}>
                 <I18nextProvider i18n={i18next}>
                     <Navbar />
+                    <VODDetailsModal />
                     <Switch>
                         <Route exact path={ROUTES.home} component={Home} />
                         <Route exact path={ROUTES.epg_programs} component={EPGPrograms} />
