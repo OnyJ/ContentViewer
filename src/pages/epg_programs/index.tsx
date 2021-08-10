@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { getEPGPrograms } from '../../api/MaculosaAPI';
@@ -34,7 +33,3 @@ export default function EPGPrograms(): JSX.Element {
         </div>
     );
 }
-
-EPGPrograms.propTypes = {
-    channelId: PropTypes.number,
-};
