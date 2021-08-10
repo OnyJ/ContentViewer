@@ -5,7 +5,13 @@ import { setShowModal } from '../../redux/modal';
 import '../../styles/index.css';
 import '../../styles/vod_content.scss';
 
-export const ContentCard = ({ content, t }) => {
+export const ContentCard = ({
+    content,
+    t,
+}: {
+    content: { picture: string; title: string; genre: string; content_provider: string; directors: string };
+    t: (text: string) => string;
+}): JSX.Element => {
     const modalState = useAppSelector((state) => state.Modal);
     const dispatch = useAppDispatch();
 

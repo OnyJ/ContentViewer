@@ -3,7 +3,19 @@ import React from 'react';
 import '../../styles/epg_programs.scss';
 import '../../styles/index.css';
 
-export const ProgramCard = ({ content, t }) => (
+export const ProgramCard = ({
+    content,
+    t,
+}: {
+    content: {
+        picture: string;
+        title: string;
+        category: string;
+        broadcast_datetime: string;
+        broadcast_end_datetime: string;
+    };
+    t: (text: string) => string;
+}): JSX.Element => (
     <div className={'content-card epg-program-card'}>
         <img src={`${content.picture}`} alt={t('epg_img_alt') + content.title} />
         <div className={'card-info'}>
